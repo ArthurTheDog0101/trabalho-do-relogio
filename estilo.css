@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 :root{
---cor-de-fundo:linear-gradient(180deg, rgba(0,11,50,1) 0%, rgba(76,120,198,1) 18%, #ffff 55%);
+--cor-de-fundo:linear-gradient(180deg, rgb(182, 5, 5) 0%, rgb(100, 8, 8) 18%, #990404 55%);
 --cor-da-fonte: #FFFF;
 --vermelho: #470404;
 --botao-ativo:#ce0a0a;
@@ -83,7 +83,7 @@ body{
  }
 
  .abas-textos{
-    background-color: #5693eeda;
+    background-color: #74ee56da;
     padding:40px ;
     border-radius: 0 0 40px 40px;
 
@@ -94,7 +94,7 @@ body{
     }
     
     .aba-conteudo-titulo-principal{
-        color: blue;
+        color: rgb(21, 255, 0);
         text-transform: uppercase;
     }
 
