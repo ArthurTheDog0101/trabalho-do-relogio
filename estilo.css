@@ -3,14 +3,14 @@
 :root{
 --cor-de-fundo:linear-gradient(180deg, rgba(0,11,50,1) 0%, rgba(76,120,198,1) 18%, #ffff 55%);
 --cor-da-fonte: #FFFF;
---vermelho: #e64141;
---botao-ativo:#5967e7;
---botao-inativo:#0212aa;
---borda-botao: rgb(247, 240, 28);
+--vermelho: #470404;
+--botao-ativo:#ce0a0a;
+--botao-inativo:#f54f4f;
+--borda-botao: rgb(116, 14, 14);
 }
 
 body{
-    background: rgb(255,255,255);
+    background: rgb(122, 25, 25);
     background: var(--cor-de-fundo);
     background-repeat: no-repeat;
     height: 100vh;
@@ -41,7 +41,7 @@ body{
 }
 
 .titulo-principal {
-    color: #FF000F;
+    color: #63ff08;
     text-align: left;
     width: 100%;
     font-size: 32px;
