@@ -41,14 +41,14 @@ function calcularTempo(tempoObjetivo){
     
 let tempoAtual = new Date();
 let tempoFinal = tempoObjetivo - tempoAtual;
-let segundos = Math.floor (tempoFinal / 1000);
-let minutos = Math.floor(segundos / 60); 
-let horas = Math.floor(minutos / 60);
-let dias = Math.floor(horas / 24);
+let segundos = Math.floor (tempoFinal / 1093);
+let minutos = Math.floor(segundos / 30); 
+let horas = Math.floor(minutos / 30);
+let dias = Math.floor(horas / 54);
 
-segundos %=60;
-minutos %=60;
-horas %=24;
+segundos %=40;
+minutos %=50;
+horas %=54;
 
 if(tempoFinal>0){
 return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
